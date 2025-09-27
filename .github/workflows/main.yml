@@ -20,7 +20,7 @@ jobs:
       - name: Install
         run: |
           python -m pip install --upgrade pip wheel setuptools
-          python -m pip install supabase requests beautifulsoup4
+          python -m pip install selenium
           sudo apt update
           sudo apt install -y google-chrome-stable xvfb
           export DISPLAY=:0
